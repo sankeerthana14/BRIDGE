@@ -1,0 +1,787 @@
+example_id,source_index,prompt,label,subgroup,split,dataset,prompt_sha256,source_file,source_sheet,source_row,source_id,extraction_method
+clindet_000_7975d93362e9,0,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""ICU admission required"" according to A-DROP Score.
+
+Case description:
+An 82-year-old man with a history of hypertension. He presented with a fever of 38.0°C for the past 2 days and dyspnea. On arrival, he was alert; SpO2 89%, respiratory rate 26/min, blood pressure 88/54 mmHg, BUN 28 mg/dL. Chest X-ray showed an infiltrative shadow in the right lower lobe, and he was diagnosed with pneumonia.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Complete,external_test,clindet,116f1a2ccd5cce2f09ec9b9c092157b0fee68dd4bef0d7f00210f425d74eec84,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,0,,result_normal
+clindet_001_ba6a18ba6d07,1,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""ICU admission required"" according to A-DROP Score.
+
+Case description:
+An 82-year-old man with a history of hypertension. He presented with a fever of 38.0°C for the past 2 days and dyspnea. SpO2 89%, respiratory rate 26/min, blood pressure 88/54 mmHg, BUN 28 mg/dL. Chest X-ray showed an infiltrative shadow in the right lower lobe, and he was diagnosed with pneumonia.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Incomplete_Determinable,external_test,clindet,73a9b3a81f7f57a9a766f17384caf8691fdf609d5c83f7de880b96be7889aa10,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,1,,result_normal
+clindet_002_140ab7d4aaf3,2,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""ICU admission required"" according to A-DROP Score.
+
+Case description:
+An 82-year-old man with a history of hypertension. He has had a fever of 38.0°C for the past 2 days and presented due to dyspnea. Respiratory rate 26/min, BUN 28 mg/dL. Chest X-ray showed an infiltrative shadow in the right lower lobe, and he was diagnosed with pneumonia.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",1,Incomplete_Undeterminable,external_test,clindet,4e589d1c29eac8b53dcbe1578ef8dca448a598e5dd33ddf1bad48b85fbc7f119,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,2,,result_normal
+clindet_003_0f2886b2ef80,3,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""ICU admission required"" according to A-DROP Score.
+
+Case description:
+A 68-year-old woman with a history of diabetes mellitus presented with cough and a low-grade fever of 37.4°C. She was alert, with an SpO2 of 91%, a respiratory rate of 18/min, blood pressure of 136/78 mmHg, and BUN of 14 mg/dL. Chest X-ray showed an opacity in the right lower lobe, and she was diagnosed with pneumonia.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Complete,external_test,clindet,89270748fc2d4591e0e0d030c2aefb117e4ebc26b313c85bcc818fdaeb061679,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,3,,result_normal
+clindet_004_254224ebdba2,4,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""ICU admission required"" according to A-DROP Score.
+
+Case description:
+A 68-year-old woman with a history of diabetes presented with cough and a low-grade fever of 37.4°C. She was alert, with an SpO2 of 91%, a respiratory rate of 18/min, and a blood pressure of 136/78 mmHg. Chest X-ray showed an opacity in the right lower lobe, and she was diagnosed with pneumonia.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Incomplete_Determinable,external_test,clindet,24b2505215f437dfe1219a15e6eaf3d8a6711aaf958891bf6771f6b9027c8a15,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,4,,result_normal
+clindet_005_dc932bbf43cf,5,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""ICU admission required"" according to A-DROP Score.
+
+Case description:
+A 68-year-old woman with a history of diabetes presented with cough and a low-grade fever of 37.4°C. An X-ray showed an opacity in the right lower lobe, and she was diagnosed with pneumonia.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",1,Incomplete_Undeterminable,external_test,clindet,8c27656ea2f559d308e70c04e057670073e3f41c78b22deda3d33dd5571ae7ed,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,5,,result_normal
+clindet_006_1b6fb8d42f8d,6,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Appendicitis probable"" according to Alvarado Score.
+
+Case description:
+A 25-year-old woman. No underlying disease. Epigastric pain appeared 1 day ago and gradually migrated to the right lower abdomen. Since this morning, she has noticed nausea and decreased appetite, and she presented because the right lower abdominal pain and fever did not improve.
+
+On arrival, she was alert. Temperature 38.3°C, blood pressure 118/72 mmHg, pulse 104/min, respiratory rate 18/min, SpO2 99% (room air). There was tenderness maximal in the right lower abdomen, with tenderness in other areas, accompanied by rebound tenderness.  
+Blood tests on arrival showed a WBC count of 13,800/µL with a neutrophil-predominant increase.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Complete,external_test,clindet,c7a3262507da5e0b038c54ed0c2b1ccf591cfcf8528700cce2d91dc43a4e1d43,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,6,,result_normal
+clindet_007_73f41dd7ba9f,7,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Appendicitis probable"" according to Alvarado Score.
+
+Case description:
+A 25-year-old woman with no underlying medical conditions. Epigastric pain began 1 day ago and gradually migrated to the right lower abdomen. Since this morning, she has noticed nausea and decreased appetite, and she presented because the right lower abdominal pain.
+
+There is tenderness maximal in the right lower abdomen, with tenderness in other areas and associated rebound tenderness.
+Blood tests on arrival showed a WBC count of 13,800/µL.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Incomplete_Determinable,external_test,clindet,6790eeb0422e7bef749cb375d3bfe534688dd25c3063710c50e167e58cc0c24d,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,7,,result_normal
+clindet_008_c45b04f8116c,8,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Appendicitis probable"" according to Alvarado Score.
+
+Case description:
+A 25-year-old woman. No underlying disease. Epigastric pain appeared 1 day ago and gradually migrated to the right lower abdomen. She presented because the right lower abdominal pain.
+
+There is tenderness with the point of maximal tenderness in the right lower abdomen, with tenderness in other areas, accompanied by rebound tenderness.
+Blood tests on arrival showed WBC 13,800/µL.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",1,Incomplete_Undeterminable,external_test,clindet,8c727e06a0ee90b1bb51f1401bce5467048475785bdf8d54f5c688e4c1d473d2,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,8,,result_normal
+clindet_009_3550f19f469b,9,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Appendicitis probable"" according to Alvarado Score.
+
+Case description:
+A 35-year-old woman. She developed mild periumbilical abdominal pain 1 day ago, and because it migrated to the right lower abdomen over about half a day, she presented for evaluation. She has no nausea, vomiting, or decreased appetite.
+
+On arrival, she was alert. Temperature 37.0°C, blood pressure 118/72 mmHg, pulse 88/min, respiratory rate 16/min, SpO2 98% (room air). On physical examination, the abdomen was flat and mildly distended, with localized tenderness in the right lower quadrant, but rebound tenderness was not evident.
+
+Blood tests showed a white blood cell count of 11,200/µL, with no neutrophil-predominant left shift.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Complete,external_test,clindet,48d336c38f28eba145a6184a667f559734dfdc55aad38238c44f47da1b4ab8a5,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,9,,result_normal
+clindet_010_368a2f2a99ee,10,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Appendicitis probable"" according to Alvarado Score.
+
+Case description:
+A 35-year-old woman. She developed mild periumbilical abdominal pain 1 day ago, and because it migrated to the right lower abdomen over about half a day, she presented for evaluation. She has no nausea, vomiting, or decreased appetite.
+
+On arrival, she was alert. Temperature 37.0°C, blood pressure 118/72 mmHg, pulse 88/min, respiratory rate 16/min, SpO2 98% (room air). On physical examination, the abdomen was flat and mildly distended, with localized tenderness in the right lower quadrant, but rebound tenderness was not evident.
+
+Blood tests showed a white blood cell count of 11,200/µL.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Incomplete_Determinable,external_test,clindet,1b9cadd82a0225fd7669440a79fd835c1133700a5cba256c5ffd46f154494370,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,10,,result_normal
+clindet_011_53b4b54d73ef,11,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Appendicitis probable"" according to Alvarado Score.
+
+Case description:
+A 35-year-old woman. Mild periumbilical abdominal pain appeared 1 day ago and, over about half a day, migrated to the right lower abdomen, prompting her to seek medical care.
+
+On arrival, she was alert. Temperature 37.0°C, blood pressure 118/72 mmHg, pulse 88/min, respiratory rate 16/min, SpO2 98% (room air). On physical examination, the abdomen was flat and slightly distended, with localized tenderness in the right lower abdomen, but rebound tenderness was not evident.
+
+Blood tests showed a white blood cell count of 11,200/µL.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",1,Incomplete_Undeterminable,external_test,clindet,e74e3efd8c5e4632c34baf48aeba9b2ffd537453fdebddf8ca4447f218c1e151,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,11,,result_normal
+clindet_012_f9a69c36088c,12,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Normal"" according to Apgar Score.
+
+Case description:
+A newborn. Color was all pink,  a heart rate of 110 beats/min, crying vigorously, moving actively, and irregular breathing.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Complete,external_test,clindet,86974aaa6ecd379ea7050321ab9f67ae8624909f72099282dd5c25212493637c,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,12,,result_normal
+clindet_013_e63bdfa00caa,13,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Normal"" according to Apgar Score.
+
+Case description:
+A newborn. Color was all pink,  a heart rate of 110 beats/min, crying vigorously,  and irregular breathing.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Incomplete_Determinable,external_test,clindet,b3ca98d7a3ad631d01bdc9ad0bef061ae680cefc18ae00086970d90c73fd45b2,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,13,,result_normal
+clindet_014_ec6682865762,14,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Normal"" according to Apgar Score.
+
+Case description:
+A newborn. Color was all pink,  a heart rate of 110 beats/min, crying vigorously.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",1,Incomplete_Undeterminable,external_test,clindet,c7945f5d8d74b626c9314e5480cdb49605a05599de13c4a3e67b885e636e0805,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,14,,result_normal
+clindet_015_dfa69560c7e4,15,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Normal"" according to Apgar Score.
+
+Case description:
+A newborn with no cyanosis of the skin, a heart rate of 80 beats per minute, crying weakly, moving the limbs only slightly, and no breathing.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Complete,external_test,clindet,03fd84c8f0d33e4f79fd74a288c463206dda22fee7b146f733b99a66de0d52c1,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,15,,result_normal
+clindet_016_12be3567fbf4,16,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Normal"" according to Apgar Score.
+
+Case description:
+A newborn with no cyanosis of the skin, a heart rate of 80 beats/min, slight movement of the limbs, and no breathing.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Incomplete_Determinable,external_test,clindet,db086bf15fa67dc0164a6ca2cb419bb89870b5be33b26b13beaf58818bd8b509,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,16,,result_normal
+clindet_017_be8b3845be24,17,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Normal"" according to Apgar Score.
+
+Case description:
+A newborn, there is no cyanosis of the skin color, the heart rate is 80 beats/min, and there is no breathing.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",1,Incomplete_Undeterminable,external_test,clindet,fc004b4ba3dd44fce403b50862ec844639fa53eadb51c85b5355a1fcd325f7b5,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,17,,result_normal
+clindet_018_a8e6d682cf78,18,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Higher mortality risk"" according to BISAP Score.
+
+Case description:
+A 65-year-old woman. Epigastric pain and back pain appeared 2 days ago, and she visited the emergency department because the symptoms worsened.
+
+On arrival, she was alert. Blood tests showed a BUN of 35 mg/dL.
+The score according to the SIRS criteria was 2 points.
+Contrast-enhanced CT showed pancreatic enlargement and increased attenuation of the surrounding fat tissue, and plural effusion was observed.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Complete,external_test,clindet,6ac93d4852791a3b7c6ec575ba51ad107ae8332a809b2506420dffa10b5ccaf8,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,18,,result_normal
+clindet_019_cf90736af3c8,19,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Higher mortality risk"" according to BISAP Score.
+
+Case description:
+A 65-year-old woman. Epigastric pain and back pain appeared 2 days ago, and she visited the emergency department because the symptoms worsened.
+
+On arrival, she was alert. Blood tests showed a BUN of 35 mg/dL.
+The score according to the SIRS criteria was 2 points.
+Contrast-enhanced CT showed pancreatic enlargement and increased attenuation of the surrounding fat tissue, .
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Incomplete_Determinable,external_test,clindet,7175a9b8847593bc780f2a50e613c6bb83b199e110223a57e895e6cf35eb5f62,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,19,,result_normal
+clindet_020_ff08a8676312,20,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Higher mortality risk"" according to BISAP Score.
+
+Case description:
+A 65-year-old woman. Epigastric pain and back pain appeared 2 days ago, and she visited the emergency department because the symptoms worsened.
+
+On arrival, she was alert. 
+The score according to the SIRS criteria was 2 points.
+Contrast-enhanced CT showed pancreatic enlargement and increased attenuation of the surrounding fat tissue, .
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",1,Incomplete_Undeterminable,external_test,clindet,572fe2de1b560468f77bcfdc25399718eea46a9cc5cdec4719d54029123031a8,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,20,,result_normal
+clindet_021_0ec3db1561fb,21,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Higher mortality risk"" according to BISAP Score.
+
+Case description:
+A 55-year-old woman. Epigastric pain and back pain began 2 days ago, and she presented to the emergency department because her symptoms worsened.
+
+On arrival, she was alert. Blood tests showed a BUN of 15 mg/dL.
+The SIRS criteria score was 1 point.
+Contrast-enhanced CT showed pancreatic enlargement and increased density of the surrounding fat tissue, with no pleural effusion.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Complete,external_test,clindet,fe435efd4dda55479827419bbab38f07dec7e7814eb90224b88be561c4a98568,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,21,,result_normal
+clindet_022_9284fec11b69,22,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Higher mortality risk"" according to BISAP Score.
+
+Case description:
+A 55-year-old woman. Epigastric pain and back pain began 2 days ago, and she presented to the emergency department because her symptoms worsened.
+
+On arrival, she was alert.
+Her score according to the SIRS criteria was 1 point.
+Contrast-enhanced CT showed pancreatic enlargement and increased attenuation of the surrounding fat tissue, with no pleural effusion.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Incomplete_Determinable,external_test,clindet,2cb5613664654e213d9bbeb583104592484a55dc74ca0256eaa30d80d03b2176,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,22,,result_normal
+clindet_023_cbe5fe661dc7,23,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Higher mortality risk"" according to BISAP Score.
+
+Case description:
+A 55-year-old woman. Epigastric pain and back pain began 2 days ago, and she presented to the emergency department because her symptoms worsened.
+
+On arrival, she was alert.
+
+Contrast-enhanced CT showed pancreatic enlargement and increased attenuation of the surrounding adipose tissue.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",1,Incomplete_Undeterminable,external_test,clindet,cad4c6d3082ef72ff08747357e5968854d0566fe4f081b72acd6a2824c1f5e33,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,23,,result_normal
+clindet_024_d052feb32310,24,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Unfavorable cervix"" according to Bishop Score.
+
+Case description:
+A 28-year-old  primigravida at 39 weeks and 2 days of gestation. She perceived lower abdominal tightening resembling prodromal labor pains, and although there are no regular uterine contractions, she presented for evaluation of the timing of delivery.
+
+Pelvic examination findings: cervical dilation 1 cm, effacement 30%, fetal head presenting part at station -3, fetal presentation cephalic, cervical consistency firm, cervical position posterior. No leakage of amniotic fluid was observed, and there was no bleeding.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Complete,external_test,clindet,24f663c8e7f464dd52df1da20c3dfb4bfd1ffee0c55df2ee412f784336e41e2d,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,24,,result_normal
+clindet_025_57de15e3848c,25,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Unfavorable cervix"" according to Bishop Score.
+
+Case description:
+A 28-year-old primigravida at 39 weeks and 2 days of gestation. She noticed lower abdominal tightening resembling prodromal labor pains; although there are no regular uterine contractions, she presented for evaluation of the timing of delivery.
+
+Pelvic examination findings: cervical effacement 30%, fetal head presenting part at station -3, fetal presentation cephalic, cervical consistency firm, cervical position posterior. No leakage of amniotic fluid was observed, and there was no bleeding.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Incomplete_Determinable,external_test,clindet,0b6bed8b3f1671df2bd1cbd5c65ee7fefe214b83b88044e479a9b353528972d1,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,25,,result_normal
+clindet_026_f2335f268e52,26,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Unfavorable cervix"" according to Bishop Score.
+
+Case description:
+A 28-year-old primigravida at 39 weeks and 2 days of gestation. She perceived lower abdominal tightening resembling prodromal labor pains, and although there were no regular uterine contractions, she presented for evaluation of the timing of delivery.
+
+Pelvic examination findings:  fetal head presenting part at station -3, fetal presentation cephalic, and the cervix was posterior. No leakage of amniotic fluid was observed, and there was no bleeding.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",1,Incomplete_Undeterminable,external_test,clindet,80da2db6cbbaf770ffdc8673f9794d1c8f4ea400931d66e067cbdf0007878f9f,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,26,,result_normal
+clindet_027_85a8d7c63e03,27,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Unfavorable cervix"" according to Bishop Score.
+
+Case description:
+A 28-year-old primigravida at 39 weeks and 2 days of gestation. She noticed lower abdominal tightening resembling prodromal labor pains; although there are no regular contractions, she presented for evaluation of the timing of delivery.
+
+Pelvic examination findings: cervical dilation 5 cm, effacement 90%, fetal head station -2, fetal presentation cephalic, cervical consistency soft, cervical position posterior. No leakage of amniotic fluid was observed, and there was no bleeding.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Complete,external_test,clindet,6ff7dc2cdeb14f7d49596ed902bc9551cb50abeb0d6e3456f5b645a8e57a1d7a,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,27,,result_normal
+clindet_028_2af9765bd1ce,28,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Unfavorable cervix"" according to Bishop Score.
+
+Case description:
+A 28-year-old primigravida at 39 weeks and 2 days of gestation. She became aware of lower abdominal tightening resembling prodromal labor pains; although there are no regular uterine contractions, she presented for evaluation of the timing of delivery.
+
+Pelvic examination findings: cervical dilation 5 cm, effacement 90%, fetal head presenting part at station -2, fetal presentation cephalic, cervical consistency soft. No leakage of amniotic fluid was observed, and there was no bleeding.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Incomplete_Determinable,external_test,clindet,d81d12196604b78b92d635c54ddcf23212c8bb6c312ce73701d801cdec7ed22a,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,28,,result_normal
+clindet_029_0ab765925649,29,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Unfavorable cervix"" according to Bishop Score.
+
+Case description:
+A 28-year-old primigravida at 39 weeks and 2 days of gestation. She noticed lower abdominal tightening resembling prodromal labor pains, and although there are no regular uterine contractions, she presented for evaluation of the timing of delivery.
+
+Pelvic examination findings: The fetal head presenting part is at station -2, fetal presentation is cephalic, and cervical consistency is soft. No leakage of amniotic fluid is observed, and there is no bleeding.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",1,Incomplete_Undeterminable,external_test,clindet,82373936bfe5f9364a4abb3d8fb6041bea48d9a9cb2b08aef088ac85862b451a,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,29,,result_normal
+clindet_030_53ec6265dbdf,30,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Low risk"" according to Blatchford Score.
+
+Case description:
+A 40-year-old man presented with dizziness as the chief complaint. His systolic blood pressure was 120 mmHg, BUN was 15 mg/dL, Hb was 15 g/dL, and pulse rate was 80 beats/min. There was no melena, no syncope, no liver failure, and no heart failure.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Complete,external_test,clindet,3014efb1dc40a3c88ce0bac19b48cfba70fc6831b81765980afbbe781056c1fc,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,30,,result_normal
+clindet_031_86f68472231b,31,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Low risk"" according to Blatchford Score.
+
+Case description:
+A 40-year-old man presented with dizziness as his chief complaint. His systolic blood pressure was 120 mmHg, BUN was 15 mg/dL, Hb was 15 g/dL, and pulse rate was 80 beats/min. There was no melena, no syncope, and no heart failure.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",1,Incomplete_Undeterminable,external_test,clindet,7c6d63c8bfebb3b5770bdf7ede551a02bcd397760e38c0c9cd67184ea0f6f8e3,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,31,,result_normal
+clindet_032_80ed138b14f0,32,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Low risk"" according to Blatchford Score.
+
+Case description:
+A 40-year-old man presented with dizziness as the chief complaint. His systolic blood pressure was 120 mmHg, BUN was 22.0 mg/dL, Hb was 15 g/dL, pulse rate was 80 beats/min, there was no melena, no syncope, no liver failure, and no heart failure.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Complete,external_test,clindet,6545eb0d82b96d1fbb75ab6e8d10fdfab434c72dd99b37dcd10d324873ae56a5,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,32,,result_normal
+clindet_033_2e40e1606769,33,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Low risk"" according to Blatchford Score.
+
+Case description:
+A 40-year-old man presented with dizziness as his chief complaint. His BUN was 22 mg/dL, Hb 15 g/dL, pulse rate 80 beats/min, no melena, no syncope, no liver failure, and no heart failure.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Incomplete_Determinable,external_test,clindet,ac40bfeb9b171fd20fc71f11f7bdaa09a5a66bfc61c4578a2b2c387b179a497a,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,33,,result_normal
+clindet_034_7b035d2115ce,34,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Low risk"" according to Blatchford Score.
+
+Case description:
+A 40-year-old man presented with dizziness as his chief complaint. His systolic blood pressure was 120 mmHg, BUN was 15 mg/dL, Hb was 15 g/dL, pulse rate was 80 beats/min, there was no melena, there was no liver failure, and there was no heart failure.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",1,Incomplete_Undeterminable,external_test,clindet,cf27af4f35cfcb3be1e78da6eddbaf027b6f7481c506fb440e5d71e9f7991c02,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,34,,result_normal
+clindet_035_b06c1b81bf52,35,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""High risk; DOAC or warfarin recommended"" according to CHADS2 Score.
+
+Case description:
+A 65-year-old man with a history of hypertension and cerebral infarction. No history of diabetes mellitus or heart failure. He presented with palpitations and was diagnosed with atrial fibrillation. Blood pressure was 132/76 mmHg, pulse 78/min.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Complete,external_test,clindet,7a20ac35483e44ecf7895bbbedb1f464571159602fab9052827eb7ac93bb9502,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,35,,result_normal
+clindet_036_d3530a94cba4,36,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""High risk; DOAC or warfarin recommended"" according to CHADS2 Score.
+
+Case description:
+A 65-year-old man with a history of cerebral infarction presented with palpitations and was diagnosed with atrial fibrillation. Blood pressure was 132/76 mmHg and pulse was 78/min.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Incomplete_Determinable,external_test,clindet,b32a19fc9a975d2f213ab9a3e506885fc3caf6e3ea30addbbfe19a9a4b6167d1,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,36,,result_normal
+clindet_037_9276b78f56ee,37,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""High risk; DOAC or warfarin recommended"" according to CHADS2 Score.
+
+Case description:
+A 65-year-old man presented with palpitations and was diagnosed with atrial fibrillation. Blood pressure was 132/76 mmHg, and pulse rate was 78/min.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",1,Incomplete_Undeterminable,external_test,clindet,a5123eb92fc4c0b916f80d7725e316098a353149085870560d52d21fb26123b9,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,37,,result_normal
+clindet_038_8f871903afe9,38,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""High risk; DOAC or warfarin recommended"" according to CHADS2 Score.
+
+Case description:
+A 62-year-old woman presented with palpitations and was diagnosed with atrial fibrillation. She has no history of hypertension, diabetes mellitus, stroke, or heart failure.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Complete,external_test,clindet,5de7553586caef1ecfeed8dc976640497c577a55f9fd053376a4fd33227332f0,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,38,,result_normal
+clindet_039_dcaaa837c8fe,39,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""High risk; DOAC or warfarin recommended"" according to CHADS2 Score.
+
+Case description:
+A 62-year-old woman presented with palpitations and was diagnosed with atrial fibrillation. She has no history of diabetes mellitus, stroke, or heart failure.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Incomplete_Determinable,external_test,clindet,63021286cb4b2dfad4287d4ae3ad55a06d519e349361eedd12ab8c3b70835d48,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,39,,result_normal
+clindet_040_a39be82d2db1,40,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""High risk; DOAC or warfarin recommended"" according to CHADS2 Score.
+
+Case description:
+A 62-year-old woman presented with palpitations and was diagnosed with atrial fibrillation. She has no history of diabetes mellitus, or stroke.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",1,Incomplete_Undeterminable,external_test,clindet,8a07655b68ae5abf1416369709e0f67ca0d01a813c3590e07125df3105be4627,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,40,,result_normal
+clindet_041_5bc4a839ba70,41,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Grade C"" according to Child-Pugh Classification.
+
+Case description:
+A 70-year-old man. Liver cirrhosis. Mild encephalopathy, no ascites, total bilirubin 3.2 mg/dL, albumin 2.7 g/dL, PT-INR 2.5.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Complete,external_test,clindet,087e779c862d8bde0fc5536073c5807d01583b35e599830951569da22b9152e2,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,41,,result_normal
+clindet_042_556a42e95aff,42,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Grade C"" according to Child-Pugh Classification.
+
+Case description:
+A 70-year-old man with liver cirrhosis. Mild encephalopathy, total bilirubin 3.2 mg/dL, albumin 2.7 g/dL, PT-INR 2.5.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Incomplete_Determinable,external_test,clindet,48b7365f1c6fc45acc26dcf3a5e5cf6f261963d04afa01e9c6e79c7bf73a66d3,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,42,,result_normal
+clindet_043_525017c5a985,43,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Grade C"" according to Child-Pugh Classification.
+
+Case description:
+A 70-year-old man. Liver cirrhosis. Total bilirubin 3.2 mg/dL, albumin 2.7 g/dL.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",1,Incomplete_Undeterminable,external_test,clindet,7a46d76fa542d1ee1c630433f45ae062815968de4517d16bb0f2ff1bd80bb0e9,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,43,,result_normal
+clindet_044_ac79ebd9bd5e,44,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Grade C"" according to Child-Pugh Classification.
+
+Case description:
+A 63-year-old woman. Under follow-up for liver cirrhosis. Mild encephalopathy, no ascites, total bilirubin 0.9 mg/dL, albumin 3.8 g/dL, PTINR  1.5.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Complete,external_test,clindet,31dae8b16e6205e47dd5605442ece704821b00850868e6c8997343b3159db57f,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,44,,result_normal
+clindet_045_737c6bec071d,45,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Grade C"" according to Child-Pugh Classification.
+
+Case description:
+A 63-year-old woman. Under follow-up for liver cirrhosis. Mild encephalopathy, total bilirubin 0.9 mg/dL, albumin 3.8 g/dL, PT INR 1.5.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Incomplete_Determinable,external_test,clindet,b6dab7386c56ceb5cdcce5463872bfd23aa43a8b1d5f71a6a70966138bb2f74d,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,45,,result_normal
+clindet_046_00060881e0f0,46,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Grade C"" according to Child-Pugh Classification.
+
+Case description:
+A 63-year-old woman. Under follow-up for liver cirrhosis. No ascites, total bilirubin 0.9 mg/dL.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",1,Incomplete_Undeterminable,external_test,clindet,8f143c29a9c2e349726894a2d874bfe1d6cb4574b6a6bba1b2ab40ace58e47c6,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,46,,result_normal
+clindet_047_09d279453f85,47,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Severe pneumonia; ICU admission recommended"" according to CURB-65 Score.
+
+Case description:
+A 78-year-old man presented with fever and dyspnea. On arrival, he was alert, with a BUN of 32 mg/dL, a respiratory rate of 32/min, a blood pressure of 96/61 mmHg, and age 78 years. Chest X-ray showed an infiltrative shadow in the right lower lobe, and he was diagnosed with pneumonia.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Complete,external_test,clindet,2b02f00ce0336911ebf50ada3d437d96cf81fa272239c45215c7047e11f5bb17,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,47,,result_normal
+clindet_048_e3f456e0a1b4,48,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Severe pneumonia; ICU admission recommended"" according to CURB-65 Score.
+
+Case description:
+A 78-year-old man presented with fever and dyspnea. On arrival, he was alert, with a BUN of 32 mg/dL, a respiratory rate of 32/min and age 78 years. Chest X-ray showed an infiltrative shadow in the right lower lobe, and he was diagnosed with pneumonia.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Incomplete_Determinable,external_test,clindet,2d993033bf528af0b30da264d46d0840ec7f77ffca4fb9f6c14e22b079af5d0d,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,48,,result_normal
+clindet_049_7ee5766fba59,49,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Severe pneumonia; ICU admission recommended"" according to CURB-65 Score.
+
+Case description:
+A 78-year-old man presented with fever and dyspnea. On arrival, he was alert, with a BUN of 32 mg/dL,. Chest X-ray showed an infiltrative shadow in the right lower lobe, and he was diagnosed with pneumonia.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",1,Incomplete_Undeterminable,external_test,clindet,18573e437998bae770008d776fe25de59b3290056d396f2bbe8135378ea89d20,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,49,,result_normal
+clindet_050_8efa67cce8b7,50,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Severe pneumonia; ICU admission recommended"" according to CURB-65 Score.
+
+Case description:
+A 50-year-old woman presented with a fever of 38.0°C and cough. She was alert, with a BUN of 12 mg/dL, respiratory rate of 18/min, SpO2 of 93%, and blood pressure of 125/70 mmHg. Chest X-ray showed an opacity in the right lower lobe, and she was diagnosed with pneumonia.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Complete,external_test,clindet,b3edc008ef325044b94921d0abc0f9d09e06437f1be005c7966965aba68e13b5,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,50,,result_normal
+clindet_051_bc31e2b4202e,51,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Severe pneumonia; ICU admission recommended"" according to CURB-65 Score.
+
+Case description:
+A 50-year-old woman presented with a fever of 38.0°C and cough. She was alert, with a BUN of 12 mg/dL and a blood pressure of 125/70 mmHg. An X-ray showed an opacity in the right lower lobe, and she was diagnosed with pneumonia.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Incomplete_Determinable,external_test,clindet,36270f452e9fdf8f517924b6377153a2fd1cfdff69b7232d84225cf378c21b9a,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,51,,result_normal
+clindet_052_ed052679a9a3,52,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Severe pneumonia; ICU admission recommended"" according to CURB-65 Score.
+
+Case description:
+A 50-year-old woman presented with a fever of 38.0°C and cough. She was alert, with an SpO2 of 93%. Chest X-ray showed an opacity in the right lower lobe, and she was diagnosed with pneumonia.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",1,Incomplete_Undeterminable,external_test,clindet,b002806a62960589c1137f25653fdc51bf83aceb2fe851b6157cb87b5c062f02,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,52,,result_normal
+clindet_053_55d55f335f8a,53,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Severe"" according to Glasgow-Imrie Score.
+
+Case description:
+A 57-year-old man presented with abdominal pain and was admitted after being diagnosed with acute pancreatitis on contrast-enhanced CT.
+
+Vital signs on presentation: alert, temperature 37.8°C, blood pressure 100/60 mmHg, heart rate 112/min, respiratory rate 24/min, SpO₂ 97% (room air). The abdomen showed spontaneous pain and tenderness mainly in the epigastric region; muscular guarding was mild, and rebound tenderness was not evident. No jaundice. Oral dryness was present.
+
+Additional tests within 24 hours after presentation:
+- WBC 14,200 /µL
+- Ca 10 mg/dL
+- BUN 46 mg/dL
+- LDH 500 IU/L
+- Albmin 2.6 g/dL
+- Glucose 220 mg/dL
+- Arterial blood gas analysis (room air): pH 7.43, PaCO₂ 36 Torr, PaO₂ 78 Torr, HCO₃⁻ 23 mEq/L
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Complete,external_test,clindet,8fb56f6d814edac93785305b31c6b206d1cd888ae469079aab28b1954183de24,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,53,,result_normal
+clindet_054_b9bae2735301,54,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Severe"" according to Glasgow-Imrie Score.
+
+Case description:
+A 57-year-old man presented with abdominal pain and was admitted after being diagnosed with acute pancreatitis on contrast-enhanced CT.
+
+Vital signs on presentation: alert, temperature 37.8°C, blood pressure 100/60 mmHg, heart rate 112/min, respiratory rate 24/min, SpO₂ 97% (room air). The abdomen showed spontaneous pain and tenderness mainly in the epigastric region; muscular guarding was mild, and rebound tenderness was not evident. No jaundice. Oral dryness was present.
+
+Additional tests within 24 hours after presentation:
+- WBC 14,200 /µL
+- Ca 10 mg/dL
+- BUN 46 mg/dL
+- LDH 500 IU/L
+- Albmin 2.6 g/dL
+- Arterial blood gas analysis (room air): pH 7.43, PaCO₂ 36 Torr, PaO₂ 78 Torr, HCO₃⁻ 23 mEq/L
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Incomplete_Determinable,external_test,clindet,1c57d23528bd4f0decf75f0a7934495bbf50b77dbb365f04fb174420dbf15eb3,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,54,,result_normal
+clindet_055_ed8cda3afaff,55,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Severe"" according to Glasgow-Imrie Score.
+
+Case description:
+A 57-year-old man presented with abdominal pain and was admitted after being diagnosed with acute pancreatitis on contrast-enhanced CT.
+
+Vital signs on arrival: alert, temperature 37.8°C, blood pressure 100/60 mmHg, heart rate 112/min, respiratory rate 24/min, SpO₂ 97% (room air). The abdomen showed spontaneous pain and tenderness mainly in the epigastric region; muscular guarding was mild, and rebound tenderness was not evident. No jaundice. Oral dryness was present.
+
+Additional tests within 24 hours after presentation:
+- WBC 14,200 /µL
+- BUN 46 mg/dL
+- LDH 500 IU/L
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",1,Incomplete_Undeterminable,external_test,clindet,b5bb22de6f47e30bb642986243061861186f5604fa4434581b82fb885c802e3f,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,55,,result_normal
+clindet_056_b14b3c22ff41,56,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Severe"" according to Glasgow-Imrie Score.
+
+Case description:
+A 46-year-old man presented with abdominal pain and was diagnosed with acute pancreatitis on contrast-enhanced CT and admitted to the hospital.
+
+Vital signs on presentation: alert, temperature 37.8°C, blood pressure 100/60 mmHg, heart rate 112/min, respiratory rate 24/min, SpO₂ 97% (room air). The abdomen showed spontaneous pain and tenderness mainly in the epigastric region; muscular guarding was mild, and rebound tenderness was not evident. No jaundice. Oral dryness was present.
+
+Additional tests within 24 hours after presentation:
+- WBC 14,200 /µL
+- Ca 10 mg/dL
+- BUN 36 mg/dL
+- LDH 500 IU/L
+- Albumin 4.5 g/dL
+- Glucose 120 mg/dL
+- Arterial blood gas analysis (room air): pH 7.43, PaCO₂ 36 Torr, PaO₂ 78 Torr, HCO₃⁻ 23 mEq/L
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Complete,external_test,clindet,6c138f5dcd48662fbb8a856a02dc00092e539a67adc41f0b99f370474fd2dc0c,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,56,,result_normal
+clindet_057_33e49bbb500a,57,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Severe"" according to Glasgow-Imrie Score.
+
+Case description:
+A 46-year-old man presented with abdominal pain and was admitted after being diagnosed with acute pancreatitis on contrast-enhanced CT.
+
+Vital signs on presentation: alert, temperature 37.8°C, blood pressure 100/60 mmHg, heart rate 112/min, respiratory rate 24/min, SpO₂ 97% (room air). The abdomen showed spontaneous pain and tenderness mainly in the epigastric region; muscular guarding was mild, and rebound tenderness was not evident. No jaundice. Oral dryness was present.
+
+Additional tests within 24 hours after presentation:
+- WBC 14,200 /µL
+- Ca 10 mg/dL
+- BUN 36 mg/dL
+- LDH 500 IU/L
+- Glucose 120 mg/dL
+- Arterial blood gas analysis (room air): pH 7.43, PaCO₂ 36 Torr, PaO₂ 78 Torr, HCO₃⁻ 23 mEq/L
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Incomplete_Determinable,external_test,clindet,51e16f8b35f6e47bd88847cc00981bbcf2dd1d441d3286bab3ca8bede9f3a973,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,57,,result_normal
+clindet_058_79972a85d92e,58,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""Severe"" according to Glasgow-Imrie Score.
+
+Case description:
+A 46-year-old man presented with abdominal pain and was admitted after being diagnosed with acute pancreatitis on contrast-enhanced CT.
+
+Vital signs on arrival: alert, temperature 37.8°C, blood pressure 100/60 mmHg, heart rate 112/min, respiratory rate 24/min, SpO₂ 97% (room air). The abdomen showed spontaneous pain and tenderness mainly in the epigastric region; muscular guarding was mild, and rebound tenderness was not evident. No jaundice. Oral dryness was present.
+
+Additional tests within 24 hours after presentation:
+- WBC 14,200 /µL
+- Glucose 120 mg/dL
+- Arterial blood gas analysis (room air): pH 7.43, PaCO₂ 36 Torr, PaO₂ 78 Torr, HCO₃⁻ 23 mEq/L
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",1,Incomplete_Undeterminable,external_test,clindet,d025a391cb435fc3e9c67f61221fe06470cdb85ef0a69c1b918f7a337c466572,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,58,,result_normal
+clindet_059_ba8ff604a447,59,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""High bleeding risk"" according to HAS-BLED Score.
+
+Case description:
+An 80-year-old man presented with atrial fibrillation. Blood pressure was 165/92 mmHg, renal function showed a creatinine level of 2.5 mg/dL, no hepatic impairment, a history of stroke, a history of bleeding, PT-INR was 1.0, he was taking antiplatelet medication, and he was an alcohol abuser.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Complete,external_test,clindet,b4a843c7ec55680b3b731298f3ea75c9661e1af5d93e1f52b889dcfe0e739c5f,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,59,,result_normal
+clindet_060_cfc87b8a24c4,60,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""High bleeding risk"" according to HAS-BLED Score.
+
+Case description:
+An 80-year-old man presented with atrial fibrillation. No hepatic impairment, history of stroke, history of bleeding, PT-INR 1.0, taking antiplatelet medication, alcohol abuser.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Incomplete_Determinable,external_test,clindet,e9f2c66149135faa0522328063b8602eafde2524dfce8f99dd21081f3d2fc811,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,60,,result_normal
+clindet_061_fe2d59453565,61,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""High bleeding risk"" according to HAS-BLED Score.
+
+Case description:
+An 80-year-old  man presented with atrial fibrillation. Blood pressure was 165/92 mmHg.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",1,Incomplete_Undeterminable,external_test,clindet,60d05d9f5ba796a56feda779c8e90c7227c15953428b8c01efe90ddd916995e8,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,61,,result_normal
+clindet_062_e0aa9680ea26,62,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""High bleeding risk"" according to HAS-BLED Score.
+
+Case description:
+A 60-year-old man. For evaluation of atrial fibrillation. Blood pressure 128/76 mmHg, no history of bleeding, no history of stroke, normal renal function, no hepatic dysfunction, on antiplatelet therapy, no history of alcohol use. Laboratory tests showed PT-INR 1.2 and stable.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Complete,external_test,clindet,27fa534e83e63e63705903c1261cb772c4a15a8a2c70067b8d092c88eb3a029d,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,62,,result_normal
+clindet_063_519212fa4dd9,63,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""High bleeding risk"" according to HAS-BLED Score.
+
+Case description:
+A 60-year-old male. For evaluation of atrial fibrillation. Blood pressure 128/76 mmHg, no history of bleeding, no history of stroke, normal renal function, no hepatic dysfunction and no history of alcohol use.Laboratory tests showed PT-INR 1.2 and stable.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Incomplete_Determinable,external_test,clindet,ecc0d7cac44338035129ebcfc2eb07aef9311d7092b57ab1610d4c7b7078b8b1,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,63,,result_normal
+clindet_064_79ecc994d0a3,64,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""High bleeding risk"" according to HAS-BLED Score.
+
+Case description:
+A 60-year-old man. For further evaluation of atrial fibrillation. Blood pressure 128/76 mmHg, no history of bleeding.Laboratory tests showed PT-INR 1.2 and stable.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",1,Incomplete_Undeterminable,external_test,clindet,ce2d7d3a70f8d64e6b7560ea74b529d1e7974fb85286d5549f12e30469125311,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,64,,result_normal
+clindet_065_e9fb7df8dfad,65,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""High risk"" according to Khorana Score.
+
+Case description:
+A 65-year-old man. He was diagnosed with lung cancer six months ago and is now starting systemic chemotherapy with gemcitabine plus nab-PTX.  
+Pre-chemotherapy test findings:  
+Complete blood count: WBC 17,800/µL, Hb 9 g/dL, Plt 380,000/µL.  
+BMI 42 kg/m2
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Complete,external_test,clindet,4886cfd969fe2c3f35dbd66334dec6f2ffb9ceab0b370000f4090763bf3119b2,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,65,,result_normal
+clindet_066_64da3aa92b87,66,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""High risk"" according to Khorana Score.
+
+Case description:
+A 65-year-old man. He was diagnosed with lung cancer six months ago and is now starting systemic chemotherapy with gemcitabine plus nab-PTX.  
+Pre-chemotherapy test findings:  
+Complete blood count: Hb 9 g/dL, Plt 380,000/µL.  
+BMI 42 kg/m2
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Incomplete_Determinable,external_test,clindet,aae02fb9263df28425fa1c7b0c32e952bd200c17d92690992b1fdadef29bb0b9,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,66,,result_normal
+clindet_067_4d7da8d27531,67,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""High risk"" according to Khorana Score.
+
+Case description:
+A 65-year-old man. He was diagnosed with lung cancer six months ago and is now starting systemic chemotherapy with gemcitabine plus nab-PTX.  
+Pre-chemotherapy test findings:  
+Complete blood count: Hb 9 g/dL.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",1,Incomplete_Undeterminable,external_test,clindet,0e9b684b2ef834ff0d9863867bce6f728f450dcb3afec6b787b6f9d48837077a,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,67,,result_normal
+clindet_068_ae8ae39a9aa0,68,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""High risk"" according to Khorana Score.
+
+Case description:
+A 65-year-old man. He was diagnosed with lung cancer six months ago and is now starting systemic chemotherapy with gemcitabine plus nab-PTX.  
+Pre-chemotherapy test findings:  
+Complete blood count: WBC 6,800/µL, Hb 11 g/dL (no ESA use), Plt 340,000/µL.  
+BMI 22 kg/m2
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Complete,external_test,clindet,d45c349f277fc26bc3868a7d2198b5ec9878a1ec75eab3f971f7fa424d43a001,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,68,,result_normal
+clindet_069_4ff27f5f9333,69,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""High risk"" according to Khorana Score.
+
+Case description:
+A 65-year-old man. He was diagnosed with lung cancer six months ago and is now starting systemic chemotherapy with gemcitabine plus nab-PTX.  
+Pre-chemotherapy test findings:  
+Complete blood count: WBC 6,800/µL, Hb 11 g/dL (no ESA use), Plt 340,000/µL.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Incomplete_Determinable,external_test,clindet,1b2b345b7a732b9aacdbc5c449e93162ae4e1440353df4251d14c9bbbb1cb5b0,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,69,,result_normal
+clindet_070_0f34b21d93a6,70,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""High risk"" according to Khorana Score.
+
+Case description:
+A 65-year-old man. He was diagnosed with lung cancer six months ago and is now starting systemic chemotherapy with gemcitabine plus nab-PTX.  
+Pre-chemotherapy test findings:  
+Complete blood count: WBC 6,800/µL.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",1,Incomplete_Undeterminable,external_test,clindet,2f2275d245d0b432a0a5dbf9d0b657853e0ab8d31076e7fb81e57a33d537775e,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,70,,result_normal
+clindet_071_cc6d903f9940,71,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""No further workup indicated"" according to Centor Score.
+
+Case description:
+A 20-year-old male presented with a chief complaint of sore throat. No cough was noted. His temperature was 38.5°C, and swelling and tenderness of the anterior cervical lymph nodes were observed, with no tonsillar swelling or exudate.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Complete,external_test,clindet,879f37c6dec66daeed4feeb2e3bc1e0796a65917a939756cadb35dbc1f762b24,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,71,,result_normal
+clindet_072_da24a56b181f,72,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""No further workup indicated"" according to Centor Score.
+
+Case description:
+A 20-year-old male presented with a chief complaint of sore throat. His body temperature was 38.5°C, and swelling and tenderness of the anterior cervical lymph nodes were noted.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Incomplete_Determinable,external_test,clindet,b0065e14e9c9a631d60986a59a561bd028bb81d687d33409beb5de272815159e,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,72,,result_normal
+clindet_073_1b52b922db2a,73,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""No further workup indicated"" according to Centor Score.
+
+Case description:
+A 20-year-old male presented with a chief complaint of sore throat.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",1,Incomplete_Undeterminable,external_test,clindet,810c759a76fa10016bb8ae61cbab576740fbf4af947890687788759d9cbaac8e,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,73,,result_normal
+clindet_074_e18b30eaee3e,74,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""No further workup indicated"" according to Centor Score.
+
+Case description:
+A 20-year-old male presented with a chief complaint of sore throat. Cough was present. His temperature was 36.5°C, and swelling and tenderness of the anterior cervical lymph nodes were note noted, with no tonsillar swelling or exudate.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Complete,external_test,clindet,a9590c492e4bae5f10d7b094e3dbf935be47c92678a19f29f4ade7297fb423d8,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,74,,result_normal
+clindet_075_a0d4322c9ec1,75,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""No further workup indicated"" according to Centor Score.
+
+Case description:
+A 20-year-old male presented with a chief complaint of sore throat. His body temperature was 36.5°C, and there was no tonsillar swelling or exudate.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",1,Incomplete_Undeterminable,external_test,clindet,1128c1bfd5f8c11e48846654dc81524a9d87534e8f5479b517992fefad21e7bc,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,75,,result_normal
+clindet_076_2195e70e9979,76,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""High risk"" according to ORBIT Bleeding Score.
+
+Case description:
+An 80-year-oldman with a history of diabetes mellitus and intracerebral hemorrhage. He presented with palpitations and was diagnosed with atrial fibrillation. He is taking an antiplatelet agent. Blood pressure was 132/76 mmHg and pulse rate was 78/min. Blood tests showed Hb 11 g/dL and eGFR 44 mL/min/1.73 m².
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Complete,external_test,clindet,b217c63a255d26f98462eba346075e5cf85ce81efc70b3d696d9d5a9f960e15c,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,76,,result_normal
+clindet_077_1a6161096e7d,77,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""High risk"" according to ORBIT Bleeding Score.
+
+Case description:
+An 80-year-old with a history of diabetes mellitus and intracerebral hemorrhage. He presented with palpitations and was diagnosed with atrial fibrillation. He is taking an antiplatelet agent. Blood pressure was 132/76 mmHg and pulse rate was 78/min. Blood tests showed Hb 11 g/dL.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Incomplete_Determinable,external_test,clindet,2ed1f2e40876bf74d1aca6b1e5fa1e302641b32982f33940782a03f2aaac37fa,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,77,,result_normal
+clindet_078_3ee9a8e84a70,78,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""High risk"" according to ORBIT Bleeding Score.
+
+Case description:
+A man with a history of diabetes mellitus. He presented with palpitations and was diagnosed with atrial fibrillation. Blood pressure was 132/76 mmHg and pulse rate was 78/min. Blood tests showed Hb 11 g/dL.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",1,Incomplete_Undeterminable,external_test,clindet,7410c55558d0e18807970b5b8364d2e6b1ec4275ca2a07e2cd0791825094c10c,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,78,,result_normal
+clindet_079_af6405b84114,79,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""High risk"" according to ORBIT Bleeding Score.
+
+Case description:
+A 60-year-old man with a history of diabetes mellitus and intracerebral hemorrhage. He presented with palpitations and was diagnosed with atrial fibrillation. He is not taking any antiplatelet agents. Blood pressure was 132/76 mmHg and pulse rate was 78/min. Blood tests showed Hb 14 g/dL and eGFR 64 mL/min/1.73 m².
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Complete,external_test,clindet,a33fce7c48fc781befa75a998c5ad8d02bfd45e20a2eb9a03461ba2cf865a23d,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,79,,result_normal
+clindet_080_4ef009d92df2,80,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""High risk"" according to ORBIT Bleeding Score.
+
+Case description:
+A 60-year-old man with a history of diabetes mellitus and intracerebral hemorrhage. He presented with palpitations and was diagnosed with atrial fibrillation. He is not taking any antiplatelet medication. Blood pressure was 132/76 mmHg and pulse was 78/min. Blood tests showed Hb 14 g/dL.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Incomplete_Determinable,external_test,clindet,b514c0c37adb592bba3e420292ca122ad27ea3a33fc52f38828ba532d2c8a7e7,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,80,,result_normal
+clindet_081_16ff82a83482,81,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""High risk"" according to ORBIT Bleeding Score.
+
+Case description:
+A 60-year-old man with a history of diabetes mellitus and intracerebral hemorrhage. He presented with palpitations and was diagnosed with atrial fibrillation. Blood pressure was 132/76 mmHg and pulse rate was 78/min. Blood tests showed an Hb of 14 g/dL.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",1,Incomplete_Undeterminable,external_test,clindet,e1c39a36d250227cd44f5890948755aa49be86fa566a4b4ff4241f39844ce807,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,81,,result_normal
+clindet_082_2580152caeff,82,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""High risk"" according to qSOFA Score.
+
+Case description:
+A 72-year-old man presented with a fever of 38.5°C and malaise. On arrival, his level of consciousness was GCS 13, blood pressure 92/58 mmHg, and respiratory rate 26/min. Based on urinalysis findings, he was diagnosed with a urinary tract infection.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Complete,external_test,clindet,89e810ee5f35ec795c9a0aa81a530b71de5bf3df3561973c39435a286b979063,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,82,,result_normal
+clindet_083_8c650011627f,83,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""High risk"" according to qSOFA Score.
+
+Case description:
+A 72-year-old man presented with a fever of 38.5°C and malaise. His blood pressure was 92/58 mmHg and respiratory rate was 26/min. Based on the urinalysis findings, he was diagnosed with a urinary tract infection.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Incomplete_Determinable,external_test,clindet,76ac3bb7e93d6455e25648fc5716768813e08c9ab3f43fdb34075334cf33fd03,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,83,,result_normal
+clindet_084_9b312a564beb,84,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""High risk"" according to qSOFA Score.
+
+Case description:
+A 72-year-old man presented with a fever of 38.5°C and fatigue. On arrival, his level of consciousness was GCS 13. Based on urinalysis findings, he was diagnosed with a urinary tract infection.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",1,Incomplete_Undeterminable,external_test,clindet,e0ecf4accc3f175abab9b3dc770db0de410ee9dff86bc68e9d9bf1b21ab0ffc4,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,84,,result_normal
+clindet_085_82dd8aa2e6cf,85,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""High risk"" according to qSOFA Score.
+
+Case description:
+A 45-year-old woman presented for evaluation due to fever. Her body temperature was 37.8°C, she was alert, her blood pressure was 112/70 mmHg, and her respiratory rate was 18/min. She was diagnosed with a urinary tract infection.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Complete,external_test,clindet,7bc61dfc822e76d757fab7ab751a835edf19c2a82950f6baa326c21050d1c423,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,85,,result_normal
+clindet_086_b90faeca1ae3,86,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""High risk"" according to qSOFA Score.
+
+Case description:
+A 45-year-old woman presented with fever. Her body temperature was 37.8°C, she was alert, and her respiratory rate was 18/min. She was diagnosed with a urinary tract infection.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Incomplete_Determinable,external_test,clindet,7afc712e201efe9e1e3ae3e36c73226216dc34c9276e5356ee01f5bde0893cb0,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,86,,result_normal
+clindet_087_eb15494d2d26,87,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""High risk"" according to qSOFA Score.
+
+Case description:
+A 45-year-old woman presented due to fever. Her body temperature was 37.8°C and her respiratory rate was 18/min. She was diagnosed with a urinary tract infection.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",1,Incomplete_Undeterminable,external_test,clindet,604c0fb1721ec53a039590efeeea99d008893d8b24381b7558db1eb3002a356f,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,87,,result_normal
+clindet_088_93e41e1d0b00,88,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""diagnosed as SIRS"" according to SIRS Criteria.
+
+Case description:
+An 85-year-old man presented with fever for the past 3 days. On arrival, his temperature was 38.7°C, pulse 105/min, respiratory rate 24/min, and blood pressure 128/82 mmHg. Blood tests showed a WBC count of 9,200/mm³. Based on urinalysis findings, he was diagnosed with a urinary tract infection.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Complete,external_test,clindet,5aefb2bd28e1bbcdac7f8db314c4714f8bb92ffd36822276070f3656b1e9fe92,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,88,,result_normal
+clindet_089_3d56345b1d07,89,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""diagnosed as SIRS"" according to SIRS Criteria.
+
+Case description:
+An 85-year-old man presented with fever for the past 3 days. On arrival, his temperature was 38.7°C, pulse 105/min and blood pressure 128/82 mmHg. Blood tests showed a WBC count of 9,200/mm³. Based on urinalysis findings, he was diagnosed with a urinary tract infection.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Incomplete_Determinable,external_test,clindet,66b12a32964b9562eaaaea3ba1e649f5ec39c6db38cfac9afb27ae3a477fbfe4,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,89,,result_normal
+clindet_090_a1529d287aee,90,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""diagnosed as SIRS"" according to SIRS Criteria.
+
+Case description:
+An 85-year-old man presented with fever for the past 3 days. On arrival, his temperature was 38.7°C and blood pressure 128/82 mmHg. Based on urinalysis findings, he was diagnosed with a urinary tract infection.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",1,Incomplete_Undeterminable,external_test,clindet,75b10d4118d108bfc7bf7a6889c079644f91c63a8f22e66e35f7468631b35e68,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,90,,result_normal
+clindet_091_9e691a0681d3,91,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""diagnosed as SIRS"" according to SIRS Criteria.
+
+Case description:
+An 82-year-old woman presented with a sore throat and fever since yesterday. On arrival, her temperature was 37.3°C, respiratory rate 18/min, pulse 82/min, and blood pressure 118/74 mmHg. Blood tests showed a WBC count of 9,200/mm³. Based on urinalysis findings, she was diagnosed with a urinary tract infection.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Complete,external_test,clindet,f30f724fcfec58e345e7e6d5a14d976f59652a261156d20c0be5b6f5951f13b1,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,91,,result_normal
+clindet_092_8a8ba7c53be4,92,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""diagnosed as SIRS"" according to SIRS Criteria.
+
+Case description:
+An 82-year-old woman presented with a sore throat and fever since yesterday. On arrival, her temperature was 37.3°C, pulse 82/min, and blood pressure 118/74 mmHg. Blood tests showed a WBC count of 9,200/mm³. Based on urinalysis findings, she was diagnosed with a urinary tract infection.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",0,Incomplete_Determinable,external_test,clindet,f4ecd1665b54664b5b29eadc2027b2bb12b04580dfe7e54325bbc18aaf5dff7b,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,92,,result_normal
+clindet_093_6341db09227b,93,"You are an experienced clinical physician.
+Based on the following case description, determine whether the patient meets the criteria for ""diagnosed as SIRS"" according to SIRS Criteria.
+
+Case description:
+An 82-year-old woman presented with a sore throat and fever since yesterday. On arrival, her temperature was 37.3°C, and blood pressure 118/74 mmHg. Blood tests showed a WBC count of 9,200/mm³. Based on urinalysis findings, she was diagnosed with a urinary tract infection.
+
+Answer with your final judgment as ""Met"", ""Not met"", or ""Unable to determine"".",1,Incomplete_Undeterminable,external_test,clindet,3ef72de3aeb775bd689c11ac7894f4a1f60d0b4d8eda403f3620e02bb7d66280,/export/home2/sati0004/JBHI/BRIDGE/data/clindet/results/Clinical_Decision_Task_Result_base.xlsx,Sheet1,93,,result_normal
