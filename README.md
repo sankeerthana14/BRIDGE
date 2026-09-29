@@ -2,8 +2,6 @@
 
 **Detecting Evidence Insufficiency for Gated Hallucination Mitigation in Medical Large Language Models**
 
-Code accompanying the submitted revision to the **IEEE Journal of Biomedical and Health Informatics (JBHI)**.
-
 Paper repository: https://github.com/sankeerthana14/BRIDGE
 
 ## Overview
@@ -364,17 +362,6 @@ obsolete/OLD experiment folders
 
 If raw generations or activation caches are required for archival reproducibility, store them separately using an archival service or large-file storage and provide a link plus checksums.
 
-## Exact paper-release recommendation
-
-For the JBHI submission, create an immutable Git tag such as:
-
-```bash
-git tag -a v1.0-jbhi-submission -m "Code corresponding to submitted JBHI revision"
-git push origin v1.0-jbhi-submission
-```
-
-This makes it possible to identify the exact code state corresponding to the manuscript even if the repository continues to evolve.
-
 ## Reproducibility notes
 
 The main paper intentionally distinguishes between:
@@ -400,25 +387,3 @@ The code release should preserve:
 - bootstrap procedures
 - local-judge configuration
 - latency measurement protocol
-
-## Citation
-
-If you use this code, please cite the accompanying manuscript:
-
-```bibtex
-@article{satini2026bridge,
-  title   = {Detecting Evidence Insufficiency for Gated Hallucination Mitigation in Medical Large Language Models},
-  author  = {Satini, Sankeerthana and Tan, Chee Wei},
-  journal = {IEEE Journal of Biomedical and Health Informatics},
-  year    = {2026},
-  note    = {Submitted revision}
-}
-```
-
-Please update the citation with the final bibliographic information if the paper is published.
-
-## License
-
-Add a software license before making the repository public. An MIT or Apache-2.0 license is appropriate for many research-code releases, subject to NTU and project-specific requirements.
-
-Dataset and pretrained-model licenses remain those of their original authors and are not superseded by the license for this repository.
