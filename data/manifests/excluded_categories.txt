@@ -1,0 +1,15 @@
+physician_agreed_categories
+not-health-professional         447
+health-professional             362
+any-reducible-uncertainty       338
+context-matters-but-unclear     289
+no-uncertainty                  244
+context-does-not-matter         242
+context-matters-is-clear        232
+conditionally-emergent          212
+only-irreducible-uncertainty    209
+detailed                        206
+simple                          188
+emergent                        155
+non-emergent                    142
+Name: count, dtype: int64

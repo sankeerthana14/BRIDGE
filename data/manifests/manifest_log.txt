@@ -1,0 +1,108 @@
+
+Reading oss_eval: 5000 raw records
+Prompts that could not be extracted: 0
+
+Reading hard: 1000 raw records
+Prompts that could not be extracted: 0
+
+======================================================================
+HEALTHBENCH HARD OVERLAP AUDIT
+======================================================================
+
+Eligible OSS examples overlapping eligible Hard examples: 188
+
+Overlapping examples by binary label:
+binary_label
+0.0     54
+1.0    134
+Name: count, dtype: int64
+
+Manifest validation passed.
+No train/test or validation/test prompt overlap detected.
+
+======================================================================
+MANIFEST SUMMARY
+======================================================================
+
+Counts by dataset variant:
+dataset_variant  included
+hard             False        812
+                 True         188
+oss_eval         False       4385
+                 True         615
+dtype: int64
+
+Experimental split sizes:
+split
+train         492
+test          188
+validation    123
+Name: count, dtype: int64
+
+Class counts by split:
+split       binary_label
+test        0.0              54
+            1.0             134
+train       0.0             310
+            1.0             182
+validation  0.0              78
+            1.0              45
+dtype: int64
+
+Class proportions by split:
+split       binary_label
+test        0.0             0.287234
+            1.0             0.712766
+train       0.0             0.630081
+            1.0             0.369919
+validation  0.0             0.634146
+            1.0             0.365854
+Name: proportion, dtype: float64
+
+Clean OSS-Eval pool after Hard overlap removal:
+Total: 615
+binary_label
+0.0    388
+1.0    227
+Name: count, dtype: int64
+
+HealthBench Hard test pool:
+Total: 188
+binary_label
+0.0     54
+1.0    134
+Name: count, dtype: int64
+
+Most common physician-agreed categories:
+physician_agreed_categories
+not-health-professional             447
+health-professional                 362
+any-reducible-uncertainty           338
+context-matters-but-unclear         289
+not-enough-context                  257
+enough-context                      255
+no-uncertainty                      244
+context-does-not-matter             242
+enough-info-to-complete-task        241
+not-enough-info-to-complete-task    238
+context-matters-is-clear            232
+conditionally-emergent              212
+only-irreducible-uncertainty        209
+detailed                            206
+simple                              188
+emergent                            155
+non-emergent                        142
+Name: count, dtype: int64
+
+Exclusion reasons:
+exclusion_reason
+no target evidence-sufficiency category      5009
+prompt overlaps HealthBench Hard test set     188
+Name: count, dtype: int64
+
+Missing prompt hashes:
+0
+
+Manifest saved to:
+C:\Users\SATI0004\Documents\JBHI\BRIDGE\data\manifests\healthbench_evidence_sufficiency_v1.csv
+(mech_interp) PS C:\Users\SATI0004\Documents\JBHI\BRIDGE> 
